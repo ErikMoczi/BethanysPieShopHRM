@@ -1,5 +1,6 @@
 @page "/employeeoverview"
 
+<PageTitle>@Title</PageTitle>
 <h2>Employee Overview</h2>
 
 @if (Employees == null)
@@ -8,29 +9,20 @@
 }
 else
 {
-    <table class="table table-light">
-        <thead class="table-primary">
-        <tr>
-            <th></th>
-            <th>Employee ID</th>
-            <th>First name</th>
-            <th>Last name</th>
-        </tr>
-        </thead>
-        <tbody>
+    <QuickViewPopup Employee="_selectedEmployee"></QuickViewPopup>
+    <div class="row">
         @foreach (var employee in Employees)
         {
-            <tr>
-                <td>
-                    <img src="@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{employee.EmployeeId}-small.jpg")"
-                         class="rounded-circle"/>
-                </td>
-                <td>@employee.EmployeeId</td>
-                <td>@employee.FirstName</td>
-                <td>@employee.LastName</td>
-            </tr>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <ErrorBoundary>
+                    <ChildContent>
+                        <EmployeeCard Employee="employee" EmployeeQuickViewClicked="ShowQuickViewPopup"></EmployeeCard>
+                    </ChildContent>
+                    <ErrorContent>
+                        <p class="errorUI">Invalid employee!</p>
+                    </ErrorContent>
+                </ErrorBoundary>
+            </div>
         }
-        </tbody>
-
-    </table>
+    </div>
 }
