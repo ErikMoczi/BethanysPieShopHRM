@@ -1,4 +1,4 @@
-using BethanysPieShopHRM.Blazor.Models;
+using BethanysPieShopHRM.Blazor.Services;
 using BethanysPieShopHRM.Shared.Domain;
 using Microsoft.AspNetCore.Components;
 
@@ -6,15 +6,18 @@ namespace BethanysPieShopHRM.Blazor.Pages;
 
 public partial class EmployeeOverview : ComponentBase
 {
+    [Inject]
+    public IEmployeeDataService EmployeeDataService { get; set; } = null!;
+
     public List<Employee>? Employees { get; set; } = default!;
 
     private Employee? _selectedEmployee;
 
     private string Title = "Employee Overview";
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        Employees = MockDataService.Employees;
+        Employees = (await EmployeeDataService.GetAllEmployees()).ToList();
     }
 
     private void ShowQuickViewPopup(Employee selectedEmployee)

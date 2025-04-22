@@ -1,0 +1,17 @@
+﻿services:
+  BethanysPieShopHRM.DB:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: bethanyspieshophrm-sql-db
+    ports:
+      - "1411:1433"
+    environment:
+      SA_PASSWORD: "Password123!"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+      MSSQL_TLS_ENABLED: "false"
+    restart: unless-stopped
+    volumes:
+      - sql_data:/var/opt/mssql
+
+volumes:
+  sql_data:

@@ -4,6 +4,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Blazor",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Shared", "BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj", "{940CEC23-350E-4DF8-8028-32A67D2456AC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Api", "BethanysPieShopHRM.Api\BethanysPieShopHRM.Api.csproj", "{73347E19-781D-426C-BD26-113661F14A01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{9AC33569-5266-4E8F-A2E6-E4165C35A5D9}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{01E76CBA-97E7-41C7-8948-BA0FFBA81CF1}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Database-Setup.md = docs\Database-Setup.md
+		docs\Database-Migrations.md = docs\Database-Migrations.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +32,12 @@ Global
 		{940CEC23-350E-4DF8-8028-32A67D2456AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{940CEC23-350E-4DF8-8028-32A67D2456AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{940CEC23-350E-4DF8-8028-32A67D2456AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73347E19-781D-426C-BD26-113661F14A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73347E19-781D-426C-BD26-113661F14A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73347E19-781D-426C-BD26-113661F14A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73347E19-781D-426C-BD26-113661F14A01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01E76CBA-97E7-41C7-8948-BA0FFBA81CF1} = {9AC33569-5266-4E8F-A2E6-E4165C35A5D9}
 	EndGlobalSection
 EndGlobal
