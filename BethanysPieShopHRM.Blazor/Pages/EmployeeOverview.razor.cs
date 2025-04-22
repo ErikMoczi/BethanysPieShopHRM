@@ -1,8 +1,8 @@
-using BethanysPieShopHRM.Models;
+using BethanysPieShopHRM.Blazor.Models;
 using BethanysPieShopHRM.Shared.Domain;
 using Microsoft.AspNetCore.Components;
 
-namespace BethanysPieShopHRM.Pages;
+namespace BethanysPieShopHRM.Blazor.Pages;
 
 public partial class EmployeeOverview : ComponentBase
 {

@@ -1,6 +1,6 @@
-﻿using BethanysPieShopHRM.Components.Widgets;
+﻿using BethanysPieShopHRM.Blazor.Components.Widgets;
 
-namespace BethanysPieShopHRM.Pages;
+namespace BethanysPieShopHRM.Blazor.Pages;
 
 public partial class Index
 {

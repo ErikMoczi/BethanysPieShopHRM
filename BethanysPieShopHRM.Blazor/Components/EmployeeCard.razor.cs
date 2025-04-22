@@ -1,7 +1,7 @@
 using BethanysPieShopHRM.Shared.Domain;
 using Microsoft.AspNetCore.Components;
 
-namespace BethanysPieShopHRM.Components;
+namespace BethanysPieShopHRM.Blazor.Components;
 
 public partial class EmployeeCard
 {

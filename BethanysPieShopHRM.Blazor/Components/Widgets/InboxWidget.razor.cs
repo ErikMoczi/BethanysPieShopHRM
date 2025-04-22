@@ -1,4 +1,4 @@
-﻿namespace BethanysPieShopHRM.Components.Widgets;
+﻿namespace BethanysPieShopHRM.Blazor.Components.Widgets;
 
 public partial class InboxWidget
 {

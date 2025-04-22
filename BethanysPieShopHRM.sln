@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM", "BethanysPieShopHRM\BethanysPieShopHRM.csproj", "{4ECCF47C-BEE7-4965-A102-D33D1A98C9BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Blazor", "BethanysPieShopHRM.Blazor\BethanysPieShopHRM.Blazor.csproj", "{4ECCF47C-BEE7-4965-A102-D33D1A98C9BB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Shared", "BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj", "{940CEC23-350E-4DF8-8028-32A67D2456AC}"
 EndProject

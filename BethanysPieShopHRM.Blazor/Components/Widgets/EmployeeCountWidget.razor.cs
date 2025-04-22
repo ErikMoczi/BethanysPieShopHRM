@@ -1,6 +1,6 @@
-﻿using BethanysPieShopHRM.Models;
+﻿using BethanysPieShopHRM.Blazor.Models;
 
-namespace BethanysPieShopHRM.Components.Widgets
+namespace BethanysPieShopHRM.Blazor.Components.Widgets
 {
     public partial class EmployeeCountWidget
     {
