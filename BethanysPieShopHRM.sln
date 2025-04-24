@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{01E76CBA-9
 		docs\Database-Migrations.md = docs\Database-Migrations.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.ComponentsLibrary", "BethanysPieShopHRM.ComponentsLibrary\BethanysPieShopHRM.ComponentsLibrary.csproj", "{260659D1-17ED-4B7B-84EF-E9129FCA1A0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{73347E19-781D-426C-BD26-113661F14A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73347E19-781D-426C-BD26-113661F14A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73347E19-781D-426C-BD26-113661F14A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{260659D1-17ED-4B7B-84EF-E9129FCA1A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{260659D1-17ED-4B7B-84EF-E9129FCA1A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{260659D1-17ED-4B7B-84EF-E9129FCA1A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{260659D1-17ED-4B7B-84EF-E9129FCA1A0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{01E76CBA-97E7-41C7-8948-BA0FFBA81CF1} = {9AC33569-5266-4E8F-A2E6-E4165C35A5D9}

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace BethanysPieShopHRM.Blazor.Pages;
 
-public partial class EmployeeOverview : ComponentBase
+public partial class EmployeeOverview
 {
     [Inject]
     public IEmployeeDataService EmployeeDataService { get; set; } = null!;
