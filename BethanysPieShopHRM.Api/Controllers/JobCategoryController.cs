@@ -1,9 +1,11 @@
 ﻿using BethanysPieShopHRM.Api.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BethanysPieShopHRM.Api.Controllers;
 
 [Route("api/[controller]")]
+[Authorize]
 [ApiController]
 public class JobCategoryController : Controller
 {
