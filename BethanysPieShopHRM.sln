@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{01E76CBA-9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.ComponentsLibrary", "BethanysPieShopHRM.ComponentsLibrary\BethanysPieShopHRM.ComponentsLibrary.csproj", "{260659D1-17ED-4B7B-84EF-E9129FCA1A0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShopHRM.Blazor.Tests", "BethanysPieShopHRM.Blazor.Tests\BethanysPieShopHRM.Blazor.Tests.csproj", "{A24C7220-C2D2-49E1-ABCE-0D082EE3BC2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{260659D1-17ED-4B7B-84EF-E9129FCA1A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{260659D1-17ED-4B7B-84EF-E9129FCA1A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{260659D1-17ED-4B7B-84EF-E9129FCA1A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24C7220-C2D2-49E1-ABCE-0D082EE3BC2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24C7220-C2D2-49E1-ABCE-0D082EE3BC2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24C7220-C2D2-49E1-ABCE-0D082EE3BC2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24C7220-C2D2-49E1-ABCE-0D082EE3BC2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{01E76CBA-97E7-41C7-8948-BA0FFBA81CF1} = {9AC33569-5266-4E8F-A2E6-E4165C35A5D9}
